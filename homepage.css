@@ -16,11 +16,78 @@ a {
     color: black;
     text-decoration: none;
 }
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 #nav-bar{
     background: black;
     color: #fff;
     overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
+header {
+    background-color: #ffc244
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+.btn.signup {
+    background-color: #00c853;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+.btn.signup:hover {
+    background-color: #009624;
+}
+.home {
+    background-image: url(./img/wave\ \(3\).svg);
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h1 {
+    font-size: 48px;
+    color: #333;
+}
+
+.home-content p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.location-form {
+    display: flex;
+    margin-top: 20px;
+}
+
+.location-form input[type="text"] {
+    padding: 10px;
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+}
+
+.location-form button {
+    padding: 10px 20px;
+    background-color: #00c853;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    transition: background-color 0.3s;
+}
+
 
 /* #nav-head {
     display: flex;
@@ -33,9 +100,9 @@ a {
     width: 100%;
     z-index: 1000;
     padding: 1rem 0;
-} */ */
+} */ 
 
-#nav-head .logo {
+/* #nav-head .logo {
     margin-left: 2rem;
     font-size: 2rem;
 }
@@ -58,7 +125,7 @@ a {
 #icon1 {
     color: white;
 }
-
+ */
 /* #Homepage-sect {
     background-size: cover;
     min-height: 100vh;

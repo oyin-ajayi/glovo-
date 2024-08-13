@@ -5,6 +5,7 @@
 }
 
 /* Main Styling */
+
 html, body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
@@ -12,29 +13,38 @@ html, body {
 }
 
 /* Links */
+
 a {
     color: black;
     text-decoration: none;
 }
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+
+.home {
+    width: 100%;
+    background-image: url(wave\ \(1\).png);
+    height: 148vh;
+    background-size: cover;
 }
-#nav-bar{
-    background: black;
-    color: #fff;
-    overflow: auto;
+
+header {
+    width: 100%;
+}
+
+header #navbar {
+    padding: 30px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
+.hero-section {
+    margin: 0 40px;
+    height: 80vh;
+    display: flex;
+    /* justify-content: center; */ 
+    align-items: center;
 }
-header {
-    background-color: #ffc244
-    padding: 20px 0;
-    border-bottom: 1px solid #eee;
-}
+
 .btn.signup {
     background-color: #00c853;
     color: white;
@@ -42,16 +52,11 @@ header {
     border-radius: 20px;
     transition: background-color 0.3s;
 }
+
 .btn.signup:hover {
     background-color: #009624;
 }
-.home {
-    background-image: url(./img/wave\ \(3\).svg);
-    padding: 100px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
 .home-content {
     max-width: 600px;
 }
@@ -90,56 +95,3 @@ header {
 .search-form button:hover {
     background-color: #009624;
 }
-
-
-
-/* #nav-head {
-    display: flex;
-    justify-content: space-between;
-    background: url(/img/wave\ \(3\).png);
-
-    /* background-color: #ffc244; */
-    /* position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    padding: 1rem 0;
-} */ 
-
-/* #nav-head .logo {
-    margin-left: 2rem;
-    font-size: 2rem;
-}
-
-#nav-head .log {
-    margin-right: 2rem;
-    background-color: #00a082;
-    padding: 0.5rem 1rem;
-    border-radius: 1rem;
-}
-
-#logolink {
-    color: #00A082FF;
-}
-
-.log a {
-    color: white;
-}
-
-#icon1 {
-    color: white;
-}
- */
-/* #Homepage-sect {
-    background-size: cover;
-    min-height: 100vh;
-    padding-top: 5rem; /* Ensure content is not hidden behind the navbar */
-    /* position: relative;
-    z-index1;: 
-} */ 
-
-/* #head-p {
-    text-align: center;
-    padding: 2rem;
-    color: #000;
-} */

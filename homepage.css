@@ -5,26 +5,40 @@
 }
 
 /* Main Styling */
-
 html, body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
-    color: #333;
 }
 
 /* Links */
 
 a {
-    color: black;
+   
     text-decoration: none;
 }
+#logolink{
+    color:#00a082;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-.home {
-    width: 100%;
-    background-image: url(wave\ \(1\).png);
-    height: 148vh;
+}
+.loginlink{
+    color: #fff;
+    background-color:#00a082 ;
+    padding: 20px;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Helvetica, Arial, Arial, Helvetica, sans-serif;
+}
+.home{
+    width: 100vw;
+    background-image: url(/img/wave\ \(3\).png);
+    height: 126vh;
     background-size: cover;
 }
+
+
 
 header {
     width: 100%;
@@ -33,20 +47,26 @@ header {
 header #navbar {
     padding: 30px 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    /* background-color: #ffc244; */
+    /* position: -webkit-sticky; /* Safari */
+    /* position: sticky;
+    top: 0; */ 
 }
 
-.hero-section {
+.home-section {
     margin: 0 40px;
     height: 80vh;
     display: flex;
-    /* justify-content: center; */ 
+    /*  justify-content: center; */ 
     align-items: center;
+  
 }
 
+
 .btn.signup {
-    background-color: #00c853;
+    background-color: #00a082;
     color: white;
     padding: 10px 20px;
     border-radius: 20px;
@@ -59,39 +79,68 @@ header #navbar {
 
 .home-content {
     max-width: 600px;
+    align-self: center;
 }
 
 .home-content h1 {
-    font-size: 48px;
-    color: #333;
+    font-size: 70px;
+    line-height: 4.5rem;
+    margin-bottom: 3rem;
+    color: 000000FF;
 }
 
-.home-content p {
-    font-size: 18px;
+.home-content .p1 {
+    font-size: 28px;
     margin: 20px 0;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 3rem;
 }
 
-.location-form {
+.form{
     display: flex;
-    margin-top: 20px;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 12px;
+ 
+    width: 42rem ;
+    align-items: center;
+ 
 }
 
-.location-form input[type="text"] {
-    padding: 10px;
-    flex: 1;
-    border: 1px solid #ddd;
-    border-radius: 5px 0 0 5px;
+.form h3 {
+    background-color: hsla(120, 100%, 85%, 0.3);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 7px ;
+    margin-bottom: 7px;
+    margin-right: 10px;
+    color: #00846b;
+    font-weight: bold;
+    border-radius: 45px;
 }
 
-.location-form button {
-    padding: 10px 20px;
-    background-color: #00c853;
-    border: none;
-    color: white;
-    cursor: pointer;
-    border-radius: 0 5px 5px 0;
-    transition: background-color 0.3s;
+#main-page{
+    display: flex;
+    justify-content: center; 
+    align-content: center;
+    align-items: center;
 }
-.search-form button:hover {
-    background-color: #009624;
+.main-animate{
+    align-self: center;
+   
+}
+.form p{
+    font-size: 23px;
+    color: #333;
+    padding-left: 0;
+    padding-right: 7rem;
+}
+.locate-logo{
+   padding-left: 2rem;
+   color: #333;
+   font-size: 28px;
 }

@@ -1,49 +1,76 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <meta http-equiv="X-UA-Compatible" content="ie=edge "/>
-        <meta
-        name="description"
-        content="Glovo delivers to your door- Glovo is still open"/>
-        <meta name="keywords" content="Restaurant, delivery, Location" />
-        <script src="https://kit.fontawesome.com/5263cb4fda.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="homepage.css"/>
-        <link rel="stylesheet" media="screen and (max-width:768px)" href="widescreen.css" />
-        <title>Glovo app</title>
-    </head>
-    <body>
-        <section class="home">
-            <header>
-                <div class="container">
-                    <nav id="navbar">
-                        <div id="nav-head">
-                          <h1 class="logo"><a id="logolink" href="homepage.html">Glovo</a></h1> 
-                        </div>
-                        <h1 class="log"><i id="icon1" class="fa-regular fa-user"></i><a href="loginpage.html">Login</a></h1>
-                    </nav>
-                </div>
-            </header>
-            <div class="container hero-section">
-                <div class="home-content">
-                    <h1>Food delivery and more</h1>
-                    <p>From groceries to your favorite restaurants, Glovo brings it all to your doorstep.</p>
-                    <form class="location-form">
-                        <input type="text" placeholder="Enter your address">
-                        <button type="submit">Find food</button>
-                    </form>
-                </div>
-                <div class="home-image">
-                    <!-- <img src="hero-image.png" alt="Delivery"> -->
-                </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge " />
+    <meta
+      name="description"
+      content="Glovo delivers to your door- Glovo is still open"
+    />
+    <meta name="keywords" content="Restaurant, delivery, Location" />
+    <script
+      src="https://kit.fontawesome.com/5263cb4fda.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="homepage.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:768px)"
+      href="widescreen.css"
+    />
+    <title>Glovo app</title>
+  </head>
+  <body>
+    <section class="home">
+      <header>
+        <div class="container">
+          <nav id="navbar">
+            <div class="nav-head">
+              <h1 class="logo">
+                <a id="logolink" href="homepage.html">Glovo</a>
+              </h1>
             </div>
-        </section>
-
-           
-       
-        <script src="homepage.js"></script>
-    </body>
+            <h1 class="log">
+              <a href="loginpage.html" class="loginlink"
+                ><span id="login-space"
+                  ><i id="icon1" class="fa-regular fa-user"></i></span
+                >Login</a
+              >
+            </h1>
+          </nav>
+        </div>
+      </header>
+      <main id="main-page">
+        <div>
+          <div class="main-animate">
+            <video autoplay src="/img/glovo video home.webm"></video>
+          </div>
+        </div>
+        <div class="container home-section">
+          <div class="home-content">
+            <h1>Food delivery and more</h1>
+            <p class="p1">Groceries, Shops, Pharmacies, Anything!</p>
+            <div class="form">
+              <div class="locate-logo">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <p>What's your address?</p>
+              <h3>
+                <i class="fa-regular fa-paper-plane"></i>
+                <span class="form-input">use current address</span>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+    <section>
+      <div>
+        <h1>Top restaurants and more in Glovo</h1>
+      </div>
+      <div></div>
+    </section>
+    <script src="homepage.js"></script>
+  </body>
 </html>

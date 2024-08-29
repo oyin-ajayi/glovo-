@@ -18,50 +18,77 @@ a {
 }
 #logolink{
     color:#00a082;
-    font-size: 3rem;
+    font-size: 32px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
+
 .loginlink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #fff;
     background-color:#00a082 ;
-    padding: 20px;
+    padding: 1px;
+    height: 40px;
+    width: 110px;
     border-radius: 100px;
     font-size: 18px;
     font-weight: 700;
     font-family: Helvetica, Arial, Arial, Helvetica, sans-serif;
 }
+
+.loginlink p {
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#logolink img {
+    height: 36px;
+}
+
 .home{
     width: 100vw;
-    background-image: url(/img/wave\ \(3\).png);
-    height: 126vh;
+    /* background-image: url(wave\ \(1\).png); */
+    /* height: 70vh; */
     background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center bottom; */
+    border-image: url(wave\ \(1\).png);
+    border-image-width: 0 0 10px 0;
+    border-image-repeat: stretch;
 }
 
 
 
 header {
     width: 100%;
+    background-color: #ffc244;
+    position: fixed;
 }
 
 header #navbar {
-    padding: 30px 40px;
+    padding: 20px 40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* background-color: #ffc244; */
+    /* background-color: #ffb928; */
     /* position: -webkit-sticky; /* Safari */
     /* position: sticky;
     top: 0; */ 
 }
 
+#main-page {
+    height: 65vh;
+    background-color: #ffc244;
+    padding-top: 160px;
+}
+
 .home-section {
     margin: 0 40px;
-    height: 80vh;
     display: flex;
-    /*  justify-content: center; */ 
+    justify-content: center;
     align-items: center;
-  
 }
 
 
@@ -83,15 +110,14 @@ header #navbar {
 }
 
 .home-content h1 {
-    font-size: 70px;
-    line-height: 4.5rem;
-    margin-bottom: 3rem;
+    font-size: 50px;
+    margin-bottom: 2.7rem;
     color: 000000FF;
 }
 
 .home-content .p1 {
-    font-size: 28px;
-    margin: 20px 0;
+    font-size: 22px;
+    margin: 20px 0 0 0;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 3rem;
@@ -103,7 +129,6 @@ header #navbar {
     background-color: #fff;
     border: 1px solid #fff;
     border-radius: 12px;
- 
     width: 42rem ;
     align-items: center;
  
@@ -143,4 +168,8 @@ header #navbar {
    padding-left: 2rem;
    color: #333;
    font-size: 28px;
+}
+
+.bottom-hero img {
+    width: 100vw;
 }

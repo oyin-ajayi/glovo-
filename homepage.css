@@ -65,7 +65,12 @@ header {
     width: 100%;
     background-color: #ffc244;
     position: fixed;
+    /* position: sticky; */
+    top: 0;
+    z-index: 1;
+    padding: 1rem;
 }
+
 
 header #navbar {
     padding: 20px 40px;
@@ -362,15 +367,19 @@ header #navbar {
 .sect5main {
     width: 100%;
     display: flex;
+   align-content: center;
+  
+
 }
 
 .sect5content {
     position: relative;
-    left: 25%;
+    left: 18%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-top: 90px;
 }
 
 
@@ -384,3 +393,104 @@ header #navbar {
     position: absolute;
     right: 120px;
 }
+.download{
+    display: flex;
+    justify-content: space-between;
+}
+.appstore{
+    padding-right: 15px;
+}
+#sect-5 h1{
+    font-weight: 700;
+    font-size: 42px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    line-height: 1.2;
+}
+#sect-5 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    margin-bottom: 48px;
+}
+.flex6{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    margin: 0 auto;
+}
+.sect6{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    margin-bottom: 68px;
+    margin-top: 200px;
+    background-color: #E9F8F5FF;
+}
+.flex6 img{
+    max-width: 254px;
+    display: block;
+    height: auto;
+    width: 100%;
+    aspect-ratio: 1.1545454545;
+}
+.sect6-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 400px;
+    padding: 0 14px;
+}
+.sect6 h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    display: flex;
+    word-wrap: anywhere;
+    margin: 24px 0;
+}
+.sect6-content{
+    margin-bottom: 24px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.flex6 h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    margin-top: 24px ;
+}
+.flex6 p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.22;
+    text-align: center;
+}
+.flex6 a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.register{
+    background-color: #00a082;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 40px;
+    border-radius: 48px;
+    border: none;
+    margin-top: 32px;
+    margin-bottom: 48px;
+}
+.register:hover{
+    background-color: #006653FF;
+}
+

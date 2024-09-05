@@ -1,331 +1,589 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge " />
-    <meta
-      name="description"
-      content="Glovo delivers to your door- Glovo is still open"
-    />
-    <meta name="keywords" content="Restaurant, delivery, Location" />
-    <script
-      src="https://kit.fontawesome.com/5263cb4fda.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="homepage.css" />
-    <link
-      rel="stylesheet"
-      media="screen and (max-width:768px)"
-      href="widescreen.css"
-    />
-    <title>Glovo app</title>
-  </head>
-  <body>
-    <section class="home">
-      <header>
-        <div class="container">
-          <nav id="navbar">
-            <div class="nav-head">
-              <h1 class="logo">
-                <a id="logolink" href="homepage.html">
-                  <img src="logo 1.png" alt="Glovo" />
-                </a>
-              </h1>
-            </div>
-            <h1 class="log">
-              <a href="loginpage.html" class="loginlink">
-                <span id="login-space"
-                  ><i id="icon1" class="fa-regular fa-user"></i
-                ></span>
-                <p>Login</p>
-              </a>
-            </h1>
-          </nav>
-          <!-- <div class="scroll">
-            <p>Enter your address to know what’s near you</p>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-          </div> -->
-        </div>
-      </header>
-      <main id="main-page">
-        <div>
-          <div class="main-animate">
-            <video autoplay loop src="/glovo video home (1).webm"></video>
-          </div>
-        </div>
-        <div class="container home-section">
-          <div class="home-content">
-            <h1>Food delivery and more</h1>
-            <p class="p1">Groceries, Shops, Pharmacies, Anything!</p>
-            <div class="form">
-              <div class="locate-logo">
-                <i class="fa-solid fa-location-dot"></i>
-              </div>
-              <p>What's your address?</p>
-              <h3>
-                <i class="fa-regular fa-paper-plane"></i>
-                <span class="form-input">use current address</span>
-              </h3>
-            </div>
-          </div>
-        </div>
-      </main>
-      <div class="bottom-hero">
-        <img src="wave-distort.svg" alt="" />
-      </div>
-    </section>
-    <section id="sect2">
-      <div>
-        <div>
-          <h1>Top restaurants and more in Glovo</h1>
-        </div>
-        <div id="sect2-grid">
-          <div class="restaurant grid1">
-            <img src="/bghikwl7kiy5zyytrhp3.jpg" alt="sect2-img1" />
-            <h2>McDonald's</h2>
-          </div>
-          <div class="restaurant grid2">
-            <img src="/sect 2 img 2.jpg" alt="sect2-img2" />
-            <h2>KFC</h2>
-          </div>
-          <div class="restaurant grid3">
-            <img src="/sect 2 image 3.jpg" alt="sect2-img3" />
-            <h2>Burger King</h2>
-          </div>
-          <div class="restaurant grid4">
-            <img src="/sect 2 img 4.jpg" alt="sect2-img4" />
-            <h2>CarreFour</h2>
-          </div>
-          <div class="restaurant grid5">
-            <img src="/sect 2 img 5.jpg" alt="sect2-img5" />
-            <h2>PizzaHut</h2>
-          </div>
-          <div class="restaurant grid6">
-            <img src="/sect 2 img 6.jpg" alt="sect2-img6" />
-            <h2>PapaJohn's</h2>
-          </div>
-          <div class="restaurant grid7">
-            <img src="/sect 2 img 7.jpg" alt="sect2-img7" />
-            <h2>Subway</h2>
-          </div>
-          <div class="restaurant grid8">
-            <img src="/sect 2 img 8.jpg" alt="sect2-img8" />
-            <h2>TacoBell</h2>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="sect-3">
-      <div class="sect-3">
-        <div>
-          <h1>Anything delivered</h1>
-        </div>
-        <div class="flex3">
-          <div class="sect-3-grid">
-            <img src="restaurants icon1.svg" alt="sect-3 icon-1" />
-            <h3>Your city's top restaurants</h3>
-            <p>
-              With a great variety of restaurants you can order your favourite
-              food or <span>explore new restaurants nearby!</span>
-            </p>
-          </div>
-          <div class="sect-3-grid">
-            <img src="/restaurant icon 2.svg" alt="sect-3 icon-2" />
-            <h3>Fast delivery</h3>
-            <p>
-              Like a flash! Order or send anything in your city and
-              <span>receive it in minutes</span>
-            </p>
-          </div>
-          <div class="sect-3-grid">
-            <img src="/restaurant icon 3.svg" alt="sect-3 icon-3" />
-            <h3>Groceries delivery & more</h3>
-            <p>
-              Find anything you need! From
-              <span>supermarkets to shops, pharmacies to florists</span> — if
-              it's in your city order it and receive it.
-            </p>
-          </div>
-        </div>
-        <div class="sect-3-link">
-          <h2><a href="#">Explore stores around you</a></h2>
-        </div>
-      </div>
-    </section>
-    <section id="sect-4">
-      <div class="sect4border borrrdtop">
-        <img src="wave 1 - sect4.svg" alt="" />
-      </div>
-      <div class="sect-4">
-        <div class="sect4-mainimg">
-          <img src="countries-opt.svg" alt="" />
-        </div>
-        <div class="flex-4">
-          <div class="flex4-head">
-            <h1>Countries where we deliver</h1>
-          </div>
-          <div class="flex4-body">
-            <div class="indv-count">Spain</div>
-            <div class="indv-count">Italy</div>
-            <div class="indv-count">Ukraine</div>
-            <div class="indv-count">Romania</div>
-            <div class="indv-count">Georgia</div>
-            <div class="indv-count">Portugal</div>
-            <div class="indv-count">poland</div>
-            <div class="indv-count">Morocco</div>
-            <div class="indv-count">kazakhstan</div>
-            <div class="indv-count">Croatia</div>
-            <div class="indv-count">Kenya</div>
-            <div class="indv-count">Cote D'Ivoire</div>
-            <div class="indv-count">Serbia</div>
-            <div class="indv-count">Moldova</div>
-            <div class="indv-count">Uganda</div>
-            <div class="indv-count">Kyrgyzstan</div>
-            <div class="indv-count">Bosnia and Herzegovina</div>
-            <div class="indv-count">Bulgaria</div>
-            <div class="indv-count">Ghana</div>
-            <div class="indv-count">Montenegro</div>
-            <div class="indv-count">Slovenia</div>
-            <div class="indv-count">Nigeria</div>
-            <div class="indv-count">Armenia</div>
-            <div class="indv-count">Andorra</div>
-            <div class="indv-count">Tunisia</div>
-          </div>
-        </div>
-      </div>
-      <div class="sect4border">
-        <img src="wave 2 - sect4.svg" alt="" />
-      </div>
-    </section>
-    <section id="sect-5">
-      <div class="sect5main">
-        <div class="sect5content">
-          <div class="sect5-icon">
-            <img src="/sect5 icon.svg" alt="" />
-          </div>
-          <div class="sect5-paragraph">
-            <h1>Download the app</h1>
-            <p>Order anything and track it in real time with the Glovo app.</p>
-          </div>
-          <div class="download">
-            <div class="appstore">
-              <img src="/app-store-button.svg" alt="app store" />
-            </div>
-            <div class="playstore">
-              <img src="/google-play-button.svg" alt="playstore" />
-            </div>
-          </div>
-        </div>
-        <div class="sect5-sub"></div>
-      </div>
-      <div class="app-image">
-        <img src="/moblie phones-opt.avif" alt="mobile phone" />
-      </div>
-    </section>
-    <section id="sect-6">
-      <div class="sect6bord">
-        <div class="heading-img">
-          <img src="/sect-6 handshake.svg" alt="" />
-        </div>
-        <div class="sect6border bordertop">
-          <img src="corporate-wave-desktop (1).svg" alt="">
-        </div>
-      </div>
-      <div class="sect6">
-        <div class="sect6-content">
-          <h1>Let's do it together</h1>
-        </div>
-        <div class="flex6">
-          <div class="sect6-flex">
-            <img src="/sect6-img1.png" alt="rider" />
-            <h2>Become a rider</h2>
-            <p>
-              Enjoy flexibility, freedom and competitive earnings by delivering
-              through Glovo.
-            </p>
-            <h3 class="register"><a href="#">Register here</a></h3>
-          </div>
-          <div class="sect6-flex">
-            <img src="/sect6-img2.png" alt="patner" />
-            <h2>Become a patner</h2>
-            <p>
-              Grow with Glovo! Our technology and user base can help you boost
-              sales and unlock new opportunities!
-            </p>
-            <h3 class="register"><a href="#">Register here</a></h3>
-          </div>
-          <div class="sect6-flex">
-            <img src="/sect6-img3.png" alt="careers" />
-            <h2>Careers</h2>
-            <p>
-              Ready for an exciting new challenge? If you’re ambitious, humble,
-              and love working with others, then we want to hear from you!
-            </p>
-            <h3 class="register"><a href="#">Register here</a></h3>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div class="footerborder borddertop">
-      <img src="/footer-wave-desktop.svg" alt="">
-    </div>
-    <footer>
-      <div class="footer">
-        <div class="footlogo">
-          <img src="/glovofooter-logo.svg" alt="">
-        </div>
-        <div class="footer-list">
-          <div class="foot1">
-            <h2>Let’s do it together</h2>
-            <div class="foot">
-              <a class="footer-link" href="#">Careers</a>
-              <a class="footer-link" href="#">Glovo for partners</a>
-              <a class="footer-link" href="#">Couriers</a>
-              <a class="footer-link" href="#">Glovo Business</a>
-            </div>
-            </ul>
-          </div>
-          <div class="foot1">
-            <h2>Links of interest</h2>
-            <div class="foot">
+/* Main Styling */
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
 
-            </div>
-              <a class="footer-link" href="#">About us</a>
-              <a class="footer-link" href="#">FAQ</a>
-              <a class="footer-link" href="#">Glovo Prime</a>
-              <a class="footer-link" href="#">Blog</a>
-              <a class="footer-link" href="#">Contact us</a>
-              <a class="footer-link" href="#">Security</a>
-          </div>
-          <div class="foot1">
-            <h2>Follow us</h2>
-            <div class="foot">
-              <a class="footer-link" href="#">Facebook</a>
-              <a class="footer-link" href="#">Twitter</a>
-              <a class="footer-link" href="#">Instagram</a>
-            </div>
-            </ul>
-          </div>
-          <div class="foot1">
-            <div>
-              <div class="appstorefooter">
-                <img src="appstore-footerr.svg" alt="">
-              </div>
-              <div class="playstorefooter">
-                <img src="/playstore-footer.svg" alt="">
-              </div>
-            </div>
-            <div class="foot">
-              <a class="footer-link" href="#">TERMS & CONDITION</a>
-              <a class="footer-link" href="#">PRIVACY POLICY</a>
-              <a class="footer-link" href="#">COOKIES POLICY</a>
-              <a class="footer-link" href="#">COMPLIANCE</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <script src="homepage.js"></script>
-  </body>
-</html>
+/* Links */
+
+a {
+   
+    text-decoration: none;
+}
+#logolink{
+    color:#00a082;
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.loginlink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color:#00a082 ;
+    padding: 1px;
+    height: 40px;
+    width: 110px;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Helvetica, Arial, Arial, Helvetica, sans-serif;
+}
+
+.loginlink p {
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#logolink img {
+    height: 36px;
+}
+
+.home{
+    width: 100vw;
+    /* background-image: url(wave\ \(1\).png); */
+    /* height: 70vh; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center bottom; */
+    border-image: url(wave\ \(1\).png);
+    border-image-width: 0 0 10px 0;
+    border-image-repeat: stretch;
+}
+
+
+
+header {
+    width: 100%;
+    background-color: #ffc244;
+    position: fixed;
+    /* position: sticky; */
+    top: 0;
+    z-index: 1;
+    padding: 1rem;
+}
+
+
+header #navbar {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #ffb928; */
+    /* position: -webkit-sticky; /* Safari */
+    /* position: sticky;
+    top: 0; */ 
+}
+
+#main-page {
+    height: 65vh;
+    background-color: #ffc244;
+    padding-top: 160px;
+}
+
+.home-section {
+    margin: 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn.signup {
+    background-color: #00a082;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn.signup:hover {
+    background-color: #009624;
+}
+
+.home-content {
+    max-width: 600px;
+    align-self: center;
+}
+
+.home-content h1 {
+    font-size: 60px;
+    margin-bottom: 2.7rem;
+    color: 000000FF;
+    line-height: 1;
+}
+
+.home-content .p1 {
+    font-size: 22px;
+    margin: 20px 0 0 0;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 3rem;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    width: 42rem ;
+    align-items: center;
+ 
+}
+
+.form h3 {
+    background-color: hsla(120, 100%, 85%, 0.3);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 7px ;
+    margin-bottom: 7px;
+    margin-right: 10px;
+    color: #00846b;
+    font-weight: bold;
+    border-radius: 45px;
+}
+
+#main-page{
+    display: flex;
+    justify-content: center; 
+    align-content: center;
+    align-items: center;
+}
+.main-animate{
+    align-self: center;
+   
+}
+.form p{
+    font-size: 23px;
+    color: #333;
+    padding-left: 0;
+    padding-right: 7rem;
+}
+.locate-logo{
+   padding-left: 2rem;
+   color: #333;
+   font-size: 28px;
+}
+
+.bottom-hero img {
+    width: 100vw;
+}
+/* #sect2-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+#sect2-grid img{
+    max-width: 128px;
+   border-start-end-radius: 920px;
+   border-start-start-radius: 920px;
+   border-end-end-radius: 1000px;
+   border-end-start-radius: 1300px;
+   aspect-ratio: 1;
+   object-fit: cover;
+
+}
+#sect2-grid{
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0,208px));
+    margin: 12px;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    width: 100%;
+    grid-gap: 64px 32px;
+    gap: 64px 32px;
+    justify-content: center;
+    align-items: center;
+}
+/* #sect2{
+    display: flex;
+    flex-direction: column;
+    
+} */
+
+#sect2 h1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 48px;
+    padding-top: 48px;
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+}
+#sect2 h2{
+    color: #000000ff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.4;
+    word-wrap: break-word;
+    background-color: #ffc244;
+    display: inline;
+    padding: 4px 12px;
+    border-radius: 8px;
+    margin-top: -10px;
+}
+
+.restaurant{
+    cursor: pointer;
+    max-width: 208px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sect-3 h1{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 48px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.flex3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* padding-left: 120px;
+    padding-right: 120px; */
+    word-wrap: break-word;
+    margin: 0 auto;
+}
+
+.sect-3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    margin-bottom: 68px;
+    margin-top: 100px;
+}
+
+.sect-3-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 400px;
+    padding: 0 14px;
+}
+
+.sect-3-grid p {
+    margin: 0;
+    line-height: 20px;
+}
+
+.sect-3 img{
+    max-width: 170px;
+}
+
+.sect-3-link a{
+    color: #fff;
+
+    font-size: 18px;
+    font-weight: 700;
+  
+}
+.sect-3-link{
+    background-color: #00a082;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 40px;
+    border-radius: 48px;
+    border: none;
+    margin-top: 32px;
+   
+}
+.sect-3-link:hover{
+    background-color: #006653FF;
+}
+
+
+.sect-4 {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffc244;
+}
+
+.borrrdtop img {
+    margin-bottom: -8px;
+}
+
+.flex-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.flex4-head h1 {
+    margin: 15px 0 20px;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.flex4-body {
+    max-width: 1000px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.indv-count {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 24px;
+    margin: 6px 8px;
+    border-radius: 20px;
+    background-color: #FFF3DAFF;
+}
+
+.sect4border img {
+    width: 100%;
+}
+#sect-5{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.sect5main {
+    width: 100%;
+    display: flex;
+   align-content: center;
+  
+
+}
+
+.sect5content {
+    position: relative;
+    left: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+}
+
+
+.app-image img{
+    max-width: 600px;   
+}
+.app-image{
+    /* flex: 0 1 50%;
+    overflow: hidden; */
+    z-index: -1;
+    position: absolute;
+    right: 120px;
+}
+.download{
+    display: flex;
+    justify-content: space-between;
+}
+.appstore{
+    padding-right: 15px;
+}
+#sect-5 h1{
+    font-weight: 700;
+    font-size: 42px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    line-height: 1.2;
+}
+#sect-5 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    margin-bottom: 48px;
+}
+.flex6{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    margin: 0 auto;
+}
+.sect6{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    margin-bottom: 68px;
+    margin-top: 200px;
+    background-color: #E9F8F5FF;
+}
+.flex6 img{
+    max-width: 270px;
+    display: block;
+    height: auto;
+    width: 100%;
+    aspect-ratio: 1.1545454545;
+}
+.sect6-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 400px;
+    padding: 0 14px;
+}
+.sect6 h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    display: flex;
+    word-wrap: anywhere;
+    margin: 24px 0;
+}
+.sect6-content{
+    margin-bottom: 24px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.flex6 h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    margin-top: 24px ;
+}
+.flex6 p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.22;
+    text-align: center;
+}
+.flex6 a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.register{
+    background-color: #00a082;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 40px;
+    border-radius: 48px;
+    border: none;
+    margin-top: 32px;
+    margin-bottom: 260px;
+}
+.register:hover{
+    background-color: #006653FF;
+}
+.sect6border img {
+    width: 100%;
+}
+.bordertop img {
+    margin-bottom: -350px;
+}
+.heading-img{
+    margin-bottom: -370px;
+    /* align-content: center;
+    justify-content: center; */
+
+}
+.heading-img img{
+    /* justify-content: center; */
+    position: relative;
+    /* max-width: 100px; */
+    margin-left: 50%;
+   
+} 
+ .sect6bord{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+ }
+ footer{
+    background-color:rgb(29, 29, 29);
+ }
+ .footer-list{
+    display: grid;
+    grid-auto-columns: minmax(120px, 200px);
+    grid-auto-flow: column;
+    justify-content: space-between;
+    padding: 16px 32px;
+  
+ }
+ .foot{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ }
+ .foot1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ }
+ .footer{
+    display: flex ;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: calc(1124px + 15%);
+    padding-bottom: 100px;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    width: 100%;
+ }
+ .footer a{
+    color: #e4e4e4ff;
+ }
+ .footer-link{
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    margin:  4px 0 16px;
+    text-decoration: none;
+ }
+ .footer h2{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+.footerborder img{
+    width: 100%;
+}
+
+.borddertop{
+    margin-bottom: -10px;
+    margin-top: -180px;
+}
+.footlogo{
+    aspect-ratio: 2.96875;
+    cursor: pointer;
+    height: auto;
+    margin: 16px 0;
+    max-width: 100px;
+    width: 100%;
+}
+
+ 

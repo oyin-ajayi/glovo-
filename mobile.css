@@ -1,0 +1,37 @@
+@media (max-width: 600px) {
+    #main-page{
+    display: flex;
+    flex-direction: column;
+    padding-top: 480px;
+    padding-bottom: 480px;
+    align-items: center;
+    background-clip: padding-box;
+    justify-content: center;
+    margin: 0 auto;
+}
+}
+.home-content{
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    max-width: 548px;
+    width: 100%;
+    color: #000000ff;
+    display: flex;
+    flex-direction: column;
+}
+.home-content h1 {
+    font-size: 40px;
+    margin-bottom: 12px;
+    color: 000000FF;
+    line-height: 1;
+}
+.home-content .p1 {
+    display: none;
+}
+.home-content h3{
+    display: none;
+}
+/* .form{
+    
+} */

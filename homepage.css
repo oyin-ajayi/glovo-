@@ -131,26 +131,29 @@ header #navbar {
 .form{
     display: flex;
     justify-content: space-between;
-    background-color: #fff;
-    border: 1px solid #fff;
-    border-radius: 12px;
-    width: 42rem ;
     align-items: center;
- 
+    align-content: center;
 }
+.enter{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+ 
+
 
 .form h3 {
     background-color: hsla(120, 100%, 85%, 0.3);
-    padding-top: 15px;
+    /* padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 25px;
     padding-right: 25px;
     margin-top: 7px ;
     margin-bottom: 7px;
-    margin-right: 10px;
+    margin-right: 10px; */
     color: #00846b;
-    font-weight: bold;
-    border-radius: 45px;
+
 }
 
 #main-page{
@@ -500,7 +503,7 @@ header #navbar {
     margin-bottom: -350px;
 }
 .heading-img{
-    margin-bottom: -370px;
+    margin-bottom: -390px;
     /* align-content: center;
     justify-content: center; */
 

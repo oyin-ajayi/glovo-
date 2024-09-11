@@ -188,9 +188,14 @@ header #navbar {
     align-content: center;
     align-items: center;
 }
+
 .main-animate{
     align-self: center;
-   
+    width: 100%;
+}
+
+.main-animate video {
+    width: 100%;
 }
 
 /* #sect2-grid{

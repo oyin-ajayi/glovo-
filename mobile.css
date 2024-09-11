@@ -1,3 +1,26 @@
+@media (max-width: 1024px) {
+    #main-page {
+        height: fit-content;
+        background-color: #ffc244;
+        padding-top: 160px;
+    }
+
+    #main-page{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .main-animate video {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+
 @media (max-width: 600px) {
     #main-page{
     display: flex;
@@ -9,7 +32,7 @@
     justify-content: center;
     margin: 0 auto;
 }
-.form{
+/* .form{
     width: fit-content;
     align-self: center;
     display: flex;
@@ -19,9 +42,8 @@
 .enter{
     background-color: #fff;
 
-}
-}
-.home-content{
+} */
+/* .home-content{
     margin-left: 0;
     margin-right: 0;
     text-align: center;
@@ -42,4 +64,4 @@
 }
 .home-content h3{
     display: none;
-}
+} */

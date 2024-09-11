@@ -9,6 +9,17 @@
     justify-content: center;
     margin: 0 auto;
 }
+.form{
+    width: fit-content;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    background: hidden;
+}
+.enter{
+    background-color: #fff;
+
+}
 }
 .home-content{
     margin-left: 0;
@@ -32,6 +43,3 @@
 .home-content h3{
     display: none;
 }
-/* .form{
-    
-} */

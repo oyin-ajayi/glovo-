@@ -14,10 +14,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="homepage.css" />
-    <link
-      rel="stylesheet" 
-      href="mobile.css"
-    />
+    <link rel="stylesheet" href="mobile.css" />
     <title>Glovo app</title>
   </head>
   <body>
@@ -50,25 +47,37 @@
       <main id="main-page">
         <div>
           <div class="main-animate">
-            <video autoplay loop src="glovo video home.webm"></video>
+            <video autoplay loop src="/glovo video home.webm"></video>
           </div>
         </div>
         <div class="container home-section">
           <div class="home-content">
             <h1>Food delivery and more</h1>
             <p class="p1">Groceries, Shops, Pharmacies, Anything!</p>
-            <div class="form">
-              <div class="enter address">
-                <div class="locate-logo">
-                  <i class="fa-solid fa-location-dot"></i>
+            <div class="outerform">
+              <div class="form">
+                <div class="enter address">
+                  <div class="locate-logo">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <p>What's your location?</p>
                 </div>
-                <p>What's your location?</p>
+                <div class="current-address">
+                  <h3>
+                    <i class="fa-regular fa-paper-plane"></i>
+                    <span class="form-input">use current location</span>
+                  </h3>
+                </div>
               </div>
-              <div class="current-address">
-                <h3>
-                  <i class="fa-regular fa-paper-plane"></i>
-                  <span class="form-input">use current location</span>
-                </h3>
+            </div>
+            <div class="mobile-outeraddress">
+              <div class="outer-address">
+                <div class="mobilecurrent-address">
+                  <h3>
+                    <i class="fa-regular fa-paper-plane"></i>
+                    <span class="form-input">use current location</span>
+                  </h3>
+                </div>
               </div>
             </div>
           </div>
@@ -79,46 +88,53 @@
       </div>
     </section>
     <section id="sect2">
-      <div>
-        <div>
+      <div class="sect2">
+        <div class="sect2-heading">
           <h1>Top restaurants and more in Glovo</h1>
         </div>
-        <div id="sect2-grid">
-          <div class="restaurant grid1">
-            <img src="/bghikwl7kiy5zyytrhp3.jpg" alt="sect2-img1" />
-            <h2>McDonald's</h2>
-          </div>
-          <div class="restaurant grid2">
-            <img src="/sect 2 img 2.jpg" alt="sect2-img2" />
-            <h2>KFC</h2>
-          </div>
-          <div class="restaurant grid3">
-            <img src="/sect 2 image 3.jpg" alt="sect2-img3" />
-            <h2>Burger King</h2>
-          </div>
-          <div class="restaurant grid4">
-            <img src="/sect 2 img 4.jpg" alt="sect2-img4" />
-            <h2>CarreFour</h2>
-          </div>
-          <div class="restaurant grid5">
-            <img src="/sect 2 img 5.jpg" alt="sect2-img5" />
-            <h2>PizzaHut</h2>
-          </div>
-          <div class="restaurant grid6">
-            <img src="/sect 2 img 6.jpg" alt="sect2-img6" />
-            <h2>PapaJohn's</h2>
-          </div>
-          <div class="restaurant grid7">
-            <img src="/sect 2 img 7.jpg" alt="sect2-img7" />
-            <h2>Subway</h2>
-          </div>
-          <div class="restaurant grid8">
-            <img src="/sect 2 img 8.jpg" alt="sect2-img8" />
-            <h2>TacoBell</h2>
+        <div class="mobilecaurousels">
+          <div class="restaurantslink">
+            <div id="sect2-grid">
+              <div class="restaurant grid1">
+                <img src="/bghikwl7kiy5zyytrhp3.jpg" alt="sect2-img1" />
+                <h2>McDonald's</h2>
+              </div>
+              <div class="restaurant grid2">
+                <img src="/sect 2 img 2.jpg" alt="sect2-img2" />
+                <h2>KFC</h2>
+              </div>
+              <div class="restaurant grid3">
+                <img src="/sect 2 image 3.jpg" alt="sect2-img3" />
+                <h2>Burger King</h2>
+              </div>
+              <div class="restaurant grid4">
+                <img src="/sect 2 img 4.jpg" alt="sect2-img4" />
+                <h2>CarreFour</h2>
+              </div>
+              <div class="restaurant grid5">
+                <img src="/sect 2 img 5.jpg" alt="sect2-img5" />
+                <h2>PizzaHut</h2>
+              </div>
+              <div class="restaurant grid6">
+                <img src="/sect 2 img 6.jpg" alt="sect2-img6" />
+                <h2>PapaJohn's</h2>
+              </div>
+              <div class="restaurant grid7">
+                <img src="/sect 2 img 7.jpg" alt="sect2-img7" />
+                <h2>Subway</h2>
+              </div>
+              <div class="restaurant grid8">
+                <img src="/sect 2 img 8.jpg" alt="sect2-img8" />
+                <h2>TacoBell</h2>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
+    <div class="sect2border">
+      <img src="sect2mobile.svg" alt="" />
+    </div>
     <section id="sect-3">
       <div class="sect-3">
         <div>
@@ -132,7 +148,13 @@
               With a great variety of restaurants you can order your favourite
               food or <span>explore new restaurants nearby!</span>
             </p>
+            <div id="sect-3-linkmobile">
+              <div class="sect-3-link">
+                <h2><a href="#">Explore stores around you</a></h2>
+              </div>
+            </div>
           </div>
+
           <div class="sect-3-grid">
             <img src="/restaurant icon 2.svg" alt="sect-3 icon-2" />
             <h3>Fast delivery</h3>

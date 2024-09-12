@@ -133,11 +133,17 @@ header #navbar {
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    background-color: #fff;
-    width: 530px;
     padding:6px 8px;
     border-radius: 8px;
   
+}
+.mobilecurrent-address{
+    display: none;
+}
+.outerform{
+    padding:6px 8px;
+    border-radius: 8px;
+    background-color: #fff;
 }
 .enter{
     display: flex;
@@ -203,6 +209,7 @@ header #navbar {
     flex-direction: column;
     justify-content: space-between;
 } */
+
 #sect2-grid img{
     max-width: 128px;
    border-start-end-radius: 920px;
@@ -259,6 +266,9 @@ header #navbar {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.sect2border{
+    display: none;
 }
 #sect-3 h1{
     justify-content: center;
@@ -328,6 +338,9 @@ header #navbar {
 }
 .sect-3-link:hover{
     background-color: #006653FF;
+}
+#sect-3-linkmobile .sect-3-link{
+    display: none;
 }
 
 

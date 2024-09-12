@@ -21,17 +21,172 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 600px){
     #main-page{
-    display: flex;
-    flex-direction: column;
-    padding-top: 480px;
-    padding-bottom: 480px;
-    align-items: center;
-    background-clip: padding-box;
-    justify-content: center;
-    margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+        padding-bottom: 15px;
+        align-items: center;
+        background-clip: padding-box;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .bottom-hero{
+        display: none;
+    }
+
+    .home-content h1{
+        font-size: 42px;
+        font-weight: 700;
+        margin: 32px 0;
+    }
+
+    .p1{
+        display: none;
+    }
+
+    .current-address{
+        display: none;
+    }
+
+    .outer-address{
+        background-color: #E9F8F5FF;
+        border-radius: 24px;
+        margin-top: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        padding: 8px 16px;
+
+    }
+
+    .mobilecurrent-address{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+        
+    }
+
+    .mobilecurrent-address h3{
+        color: #017963;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .mobile-outeraddress{
+        display: flex;
+        justify-content: center;
+    }
+
+    #sect2{
+        background-color: #ffc244;
+    }
+
+    #sect2 h1{
+        padding-bottom: 12px;
+        color: black;
+        font-size: 36px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 1.4;
+    }
+    .restaurantslink{
+        display: flex;
+        justify-content: center;
+        width:  1000px;
+        
+    }
+
+    #sect2-grid{
+        display: flex;
+        margin-bottom: 40px;
+    }
+
+    .sect2border img{
+        width: 100%;
+    }
+
+    .sect2border{
+        display: block;
+    }
+
+    #sect2 h2{
+        background-color: #fff;
+    }
+    
+    #sect-3 h1{
+        display: none;
+    }
+
+    .flex3{
+        display: flex;
+        flex-direction: column;
+        margin-top: -180px;
+    }
+
+    
+    .sect-3-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        margin-bottom: 56px;
+    }
+
+    #sect-3-linkmobile .sect-3-link{
+        display: inline-block;
+    }
+
+    #sect-3-linkmobile{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 12px;
+    }
+
+    .sect-3-link{
+        display: none;
+    }
+
+    .flex3 h3{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 8px;
+        text-align: center;
+        
+    }
+    
+    .sect4border{
+        display: none;
+    }
+
+    #sect-5{
+        display: flex;
+        flex-direction: column;
+    }
+    .sect5content {
+       
+        left: 18%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 90px;
+    }
+    
+
+
+
+
+    
+    
+
 }
+
 /* .form{
     width: fit-content;
     align-self: center;

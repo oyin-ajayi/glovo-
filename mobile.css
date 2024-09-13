@@ -21,7 +21,7 @@
 }
 
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
     #main-page{
         display: flex;
         flex-direction: column;
@@ -94,16 +94,24 @@
         text-align: center;
         line-height: 1.4;
     }
-    .restaurantslink{
-        display: flex;
-        justify-content: center;
-        width:  1000px;
-        
+
+    .mobilecaurousels {
+        overflow: hidden;
+    }
+
+    .restaurantslink {
+        width:  100%;
+        overflow-x: scroll;
+    }
+
+    .mobilecaurousels ::-webkit-scrollbar {
+        display: none;
     }
 
     #sect2-grid{
         display: flex;
         margin-bottom: 40px;
+        justify-content: flex-start;
     }
 
     .sect2border img{
@@ -137,21 +145,21 @@
         margin-bottom: 56px;
     }
 
-    #sect-3-linkmobile .sect-3-link{
+    #sect-3-linkmobile .sect-3-link {
         display: inline-block;
     }
 
-    #sect-3-linkmobile{
+    #sect-3-linkmobile {
         display: flex;
         justify-content: center;
         margin-bottom: 12px;
     }
 
-    .sect-3-link{
+    .sect-3-link {
         display: none;
     }
 
-    .flex3 h3{
+    .flex3 h3 {
         font-size: 20px;
         font-weight: 700;
         line-height: 1.2;
@@ -164,10 +172,11 @@
         display: none;
     }
 
-    #sect-5{
+    #sect-5 {
         display: flex;
         flex-direction: column;
     }
+
     .sect5content {
        
         left: 18%;
@@ -178,9 +187,53 @@
         margin-top: 90px;
     }
     
+    .sect-4 {
+        z-index: 100;
+        background-color: red;
+        background: url(sect4border-wave.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 
+    #sect-5 {
+        position: sticky;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .sect5main {
+        width: 100%;
+        display: flex;
+       align-content: center;
+    }
+    
+    .sect5content {
+        position: sticky;
+        left: 18%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 90px;
+    }
+    
+    .app-image img  {
+        max-width: 600px;   
+    }
 
-
+    .app-image {
+        /* flex: 0 1 50%;
+        overflow: hidden; */
+        z-index: -100;
+        position: relative;
+        right: 0;
+        top: -100px;
+    }
 
     
     

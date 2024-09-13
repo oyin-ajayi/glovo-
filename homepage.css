@@ -389,7 +389,8 @@ header #navbar {
 .sect4border img {
     width: 100%;
 }
-#sect-5{
+
+#sect-5 {
     position: relative;
     display: flex;
     justify-content: center;
@@ -401,8 +402,6 @@ header #navbar {
     width: 100%;
     display: flex;
    align-content: center;
-  
-
 }
 
 .sect5content {

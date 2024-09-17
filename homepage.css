@@ -7,7 +7,6 @@
 /* Main Styling */
 html, body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.7em;
 }
 
 /* Links */
@@ -149,8 +148,6 @@ header #navbar {
 .enter{
     display: flex;
     flex-direction: row;
-    
-
 }
  
 .current-address{
@@ -365,6 +362,7 @@ header #navbar {
 }
 
 .flex4-head h1 {
+    text-align: center;
     margin: 15px 0 20px;
     font-size: 48px;
     margin-bottom: 50px;
@@ -465,8 +463,14 @@ header #navbar {
     justify-content: space-around;
     align-content: center;
     align-items: center;
-    word-wrap: break-word;
-    margin: 0 auto;
+}
+
+.sect6-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    padding: 0 10px;
 }
 
 .flex6 img{
@@ -480,7 +484,6 @@ header #navbar {
 .sect6 h1{
     font-size: 48px;
     font-weight: 700;
-    line-height: 1.2;
     display: flex;
     word-wrap: anywhere;
     margin: 24px 0;
@@ -543,7 +546,7 @@ header #navbar {
     background-color: #006653FF;
 }
 
-.sect6bordmobile{
+.sect6bordmobile, .sect6bordermobile {
     display: none;
 }
 .sect6border img {

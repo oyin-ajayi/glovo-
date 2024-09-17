@@ -238,8 +238,8 @@
     .sect6border{
         display: none;
     }
-    
-    .sect6mobile img{
+
+    .sect6bordermobile {
         display: block;
     }
     
@@ -265,11 +265,38 @@
         margin-top: 200px;
         background-color: #E9F8F5FF;
     }
-   
+}
 
-    
-    
 
+@media (max-width: 600px) {
+
+    .outerform{
+        padding:4px 8px;
+        border-radius: 8px;
+        background-color: #fff;
+        width: 100%;
+    }
+
+    .enter{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-list{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        grid-auto-columns: minmax(120px, 200px);
+        grid-auto-flow: column;
+        justify-content: space-between;
+        padding: 16px 32px;
+    }
+
+    .foot, .foot1 {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
 }
 
 /* .form{

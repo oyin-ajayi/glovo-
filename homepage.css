@@ -7,6 +7,7 @@
 /* Main Styling */
 html, body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
 }
 
 /* Links */
@@ -58,29 +59,30 @@ a {
     border-image-repeat: stretch;
 }
 
-
-
 header {
-    width: 100%;
     background-color: #ffc244;
+    width: 100vw;
     position: fixed;
-    /* position: sticky; */
-    top: 0;
+    padding: 20px 40px 8px 40px;
     z-index: 1;
-    padding: 1rem;
 }
 
-
-header #navbar {
-    padding: 20px 40px;
+#navbar {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /* background-color: #ffb928; */
-    /* position: -webkit-sticky; /* Safari */
-    /* position: sticky;
-    top: 0; */ 
+    width: auto;
+    justify-content: center;
 }
+
+.navbar-flex {
+    max-width: 1320px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
 
 #main-page {
     height: 65vh;
@@ -148,6 +150,7 @@ header #navbar {
 .enter{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
  
 .current-address{
@@ -268,6 +271,12 @@ header #navbar {
 .sect2border{
     display: none;
 }
+
+span.yellow {
+    background-color: #ffc244;
+    border-radius: 8px;
+}
+
 #sect-3 h1{
     justify-content: center;
     text-align: center;
@@ -279,6 +288,7 @@ header #navbar {
 
 .flex3{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     /* padding-left: 120px;
@@ -303,8 +313,10 @@ header #navbar {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    min-width: 300px;
     max-width: 400px;
     padding: 0 14px;
+    margin-bottom: 32px;
 }
 
 .sect-3-grid p {
@@ -318,10 +330,8 @@ header #navbar {
 
 .sect-3-link a{
     color: #fff;
-
     font-size: 18px;
     font-weight: 700;
-  
 }
 .sect-3-link{
     background-color: #00a082;
@@ -331,7 +341,7 @@ header #navbar {
     padding: 7px 40px;
     border-radius: 48px;
     border: none;
-    margin-top: 32px;
+    margin-top: 12px;
    
 }
 .sect-3-link:hover{
@@ -463,6 +473,8 @@ header #navbar {
     justify-content: space-around;
     align-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 .sect6-flex {
@@ -470,6 +482,7 @@ header #navbar {
     flex-direction: column;
     align-items: center;
     max-width: 400px;
+    min-width: 300px;
     padding: 0 10px;
 }
 
@@ -520,7 +533,7 @@ header #navbar {
     background-color: #00a082;
     width: 180px;
     margin-top: 32px;
-    margin-bottom: 200px;
+    margin-bottom: 40px;
 }
 
 .sect6-text{
@@ -646,3 +659,64 @@ header #navbar {
 }
 
  
+
+
+/* Header Extension */
+
+.header-extension {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    max-width: none;
+    transition: all 0.5s ease-in-out; /* Apply smooth animation */
+    opacity: 0; /* Start hidden */
+    height: 0;  /* Start with zero height */
+    overflow: hidden; /* Hide content when height is 0 */
+}
+
+.header-extension.visible {
+    opacity: 1; /* Fully visible */
+    height: auto; /* Restore the height */
+    display: flex; /* Flex layout when visible */
+    transition: all 0.5s ease-in-out; /* Smooth showing transition */
+}
+
+
+#header-extension {
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header-extension .p1 {
+    font-size: 22px;
+    margin: 0;
+    margin-top: -14px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.select-dropdown {
+    align-items: center;
+    background-color: #292929FF;
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    height: 46px;
+    justify-content: flex-start;
+    text-transform: capitalize;
+    width: 245px;
+}
+
+
+
+
+
+
+/* hidden */
+.mobileinput-icon{
+    display: none;
+}

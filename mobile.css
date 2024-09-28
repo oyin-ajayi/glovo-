@@ -18,6 +18,47 @@
         width: 100%;
         max-width: 300px;
     }
+
+    
+
+    #sect-5 {
+        position: sticky;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .sect5main {
+        width: 100%;
+        display: flex;
+       align-content: center;
+    }
+    
+    .sect5content {
+        position: sticky;
+        left: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .app-image img  {
+        max-width: 600px;   
+    }
+
+    .app-image {
+        /* flex: 0 1 50%;
+        overflow: hidden; */
+        z-index: -100;
+        position: relative;
+        right: 0;
+        top: -100px;
+    }
 }
 
 
@@ -41,6 +82,9 @@
         font-size: 42px;
         font-weight: 700;
         margin: 32px 0;
+    }
+    .mobileinput-icon{
+        display: block;
     }
 
     .p1{
@@ -80,6 +124,9 @@
     .mobile-outeraddress{
         display: flex;
         justify-content: center;
+    }
+    .mobileinput-arrow{
+        display: block;
     }
 
     #sect2{
@@ -142,7 +189,8 @@
         flex-direction: column;
         align-items: center;
         max-width: 100%;
-        margin-bottom: 56px;
+        min-width: none;
+        margin-bottom: 40px;
     }
 
     #sect-3-linkmobile .sect-3-link {
@@ -170,21 +218,6 @@
     
     .sect4border{
         display: none;
-    }
-
-    #sect-5 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .sect5content {
-       
-        left: 18%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin-top: 90px;
     }
     
     .sect-4 {
@@ -214,12 +247,12 @@
     
     .sect5content {
         position: sticky;
-        left: 18%;
+        left: 10%;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin-top: 90px;
+        margin-top: 30px;
     }
     
     .app-image img  {
@@ -246,6 +279,7 @@
     .sect6mobile{
         margin-bottom: -350px;
     }
+
     .flex6{
         display: flex;
         flex-direction: column;
@@ -254,16 +288,20 @@
         word-wrap: break-word;
         margin: 0 auto;
     }
+
     .sect6{
         display: flex;
         justify-content: center;
         flex-direction: column;
-   
         padding-left: 7.5%;
         padding-right: 7.5%;
         margin-bottom: 68px;
         margin-top: 200px;
         background-color: #E9F8F5FF;
+    }
+
+    .sect6-flex {
+        min-width: none;
     }
 }
 

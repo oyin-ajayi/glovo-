@@ -645,6 +645,10 @@ span.yellow {
     width: 100%;
 }
 
+.footerborder2 img{
+    display: none;
+}
+
 .borddertop{
     margin-bottom: -10px;
     margin-top: -180px;

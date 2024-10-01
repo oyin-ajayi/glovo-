@@ -460,7 +460,7 @@ span.yellow {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 120px;
+    padding: 60px 40px;
     /* padding-left: 7.5%;
     padding-right: 7.5%; */
     margin-bottom: 68px;
@@ -590,17 +590,19 @@ span.yellow {
     align-content: center;
     flex-direction: column;
  }
+
  footer{
     background-color:rgb(29, 29, 29);
  }
+
  .footer-list{
     display: grid;
     grid-auto-columns: minmax(120px, 200px);
     grid-auto-flow: column;
     justify-content: space-between;
     padding: 16px 32px;
-  
  }
+
  .foot{
     display: flex;
     flex-direction: column;
@@ -662,6 +664,10 @@ span.yellow {
     width: 100%;
 }
 
+.footstore div {
+    margin-bottom: 20px;
+}
+
  
 
 
@@ -703,7 +709,10 @@ span.yellow {
     margin-bottom: 20px;
 }
 
-.select-dropdown {
+.select-dropdown select {
+    font-family: inherit;
+    padding: 0 14px;
+    border-radius: 4px;
     align-items: center;
     background-color: #292929FF;
     display: flex;
@@ -713,8 +722,9 @@ span.yellow {
     justify-content: flex-start;
     text-transform: capitalize;
     width: 245px;
+    color: #fff;
+    border: 1px solid #fff;
 }
-
 
 
 
